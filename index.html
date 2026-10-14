@@ -17,7 +17,7 @@
     <!-- Top Navigation Bar -->
     <header class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur text-white border-b border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <a href="#" class="flex items-center space-x-3">
+            <a href="index.html" class="flex items-center space-x-3">
                 <i class="fa-solid fa-paint-roller text-2xl gold-accent"></i>
                 <div>
                     <span class="text-xl font-bold tracking-tight uppercase block leading-tight">Crème de la Crème</span>
@@ -65,16 +65,31 @@
             </div>
 
             <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                <div class="bg-slate-50 border border-slate-100 p-8 rounded-2xl hover:shadow-xl transition">
-                    <div class="w-12 h-12 bg-amber-500/10 text-amber-600 rounded-xl flex items-center justify-center text-xl mb-6"><i class="fa-solid fa-house"></i></div>
-                    <h3 class="text-xl font-bold mb-3">Residential Painting</h3>
+                
+                <!-- Clickable Residential Card -->
+                <a href="residential.html" class="group bg-slate-50 border border-slate-200 p-8 rounded-2xl hover:shadow-xl hover:border-amber-500 transition block">
+                    <div class="w-12 h-12 bg-amber-500/10 text-amber-600 group-hover:bg-amber-500 group-hover:text-slate-950 rounded-xl flex items-center justify-center text-xl mb-6 transition">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-amber-600 transition flex items-center justify-between">
+                        Residential Painting
+                        <i class="fa-solid fa-arrow-right text-sm text-slate-400 group-hover:text-amber-600 group-hover:translate-x-1 transition"></i>
+                    </h3>
                     <p class="text-slate-600 text-sm leading-relaxed">Full interior and exterior house painting. Complete wall, ceiling, trim, and siding transformations with meticulous attention to detail and zero mess left behind.</p>
-                </div>
-                <div class="bg-slate-50 border border-slate-100 p-8 rounded-2xl hover:shadow-xl transition">
-                    <div class="w-12 h-12 bg-amber-500/10 text-amber-600 rounded-xl flex items-center justify-center text-xl mb-6"><i class="fa-solid fa-building"></i></div>
-                    <h3 class="text-xl font-bold mb-3">Commercial Painting</h3>
+                </a>
+
+                <!-- Clickable Commercial Card -->
+                <a href="commercial.html" class="group bg-slate-50 border border-slate-200 p-8 rounded-2xl hover:shadow-xl hover:border-amber-500 transition block">
+                    <div class="w-12 h-12 bg-amber-500/10 text-amber-600 group-hover:bg-amber-500 group-hover:text-slate-950 rounded-xl flex items-center justify-center text-xl mb-6 transition">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-amber-600 transition flex items-center justify-between">
+                        Commercial Painting
+                        <i class="fa-solid fa-arrow-right text-sm text-slate-400 group-hover:text-amber-600 group-hover:translate-x-1 transition"></i>
+                    </h3>
                     <p class="text-slate-600 text-sm leading-relaxed">Offices, retail stores, multi-family units, and commercial spaces. Flexible scheduling designed to minimize disruption to your operations and employees.</p>
-                </div>
+                </a>
+
             </div>
         </div>
     </section>
